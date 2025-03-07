@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessNotificationHub", "ServerlessNotificationHub\ServerlessNotificationHub.csproj", "{9D5EC0C2-A14A-424E-AEEE-EA907D0DFABF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessNotification.Api", "ServerlessNotification.Api\ServerlessNotification.Api.csproj", "{2FAB1D68-21F4-46C7-91EA-ED9C21D37A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessNotification.Domain", "ServerlessNotification.Domain\ServerlessNotification.Domain.csproj", "{D1B2D884-8E02-4ABF-847D-77A5ACADFC65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessNotification.Infrastructure", "ServerlessNotification.Infrastructure\ServerlessNotification.Infrastructure.csproj", "{918A41E2-3E63-43B1-8462-A17C8FB094E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9D5EC0C2-A14A-424E-AEEE-EA907D0DFABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D5EC0C2-A14A-424E-AEEE-EA907D0DFABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D5EC0C2-A14A-424E-AEEE-EA907D0DFABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D5EC0C2-A14A-424E-AEEE-EA907D0DFABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAB1D68-21F4-46C7-91EA-ED9C21D37A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAB1D68-21F4-46C7-91EA-ED9C21D37A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAB1D68-21F4-46C7-91EA-ED9C21D37A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAB1D68-21F4-46C7-91EA-ED9C21D37A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B2D884-8E02-4ABF-847D-77A5ACADFC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B2D884-8E02-4ABF-847D-77A5ACADFC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B2D884-8E02-4ABF-847D-77A5ACADFC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B2D884-8E02-4ABF-847D-77A5ACADFC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918A41E2-3E63-43B1-8462-A17C8FB094E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918A41E2-3E63-43B1-8462-A17C8FB094E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918A41E2-3E63-43B1-8462-A17C8FB094E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918A41E2-3E63-43B1-8462-A17C8FB094E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
